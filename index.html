@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies App!</title>
+</head>
+<body>
+    <h1>Movie Ratings</h1>
+    <form id="movieRatings">
+        <input type="text"  id="title" placeholder="Movie title">
+        <input type="number" min="0" max="10" step="1" id="rating" placeholder="Rating">
+        <button>Submit!</button>
+    </form>
+    <hr>
+    <h2>Sort By:</h2>
+    <button id="aToZ" >Movie Title A-Z</button>
+    <button id="zToA" >Movie Title Z-A</button>
+    <button id="lowest">Lowest Rating</button>
+    <button id="highest">Highest Rating</button>
+    <ul id="movieContainer">
+
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
